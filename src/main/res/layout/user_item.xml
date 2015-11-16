@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height_single_text_avatar"
+    android:gravity="center_vertical">
+
+    <ImageView
+        style="@style/Octo.Widget.UserAvatar"
+        android:id="@+id/imgAvatar"
+        android:src="@drawable/ic_contact_picture"/>
+
+    <TextView
+        style="@style/Octo.Widget.UserName"
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Placeholder Text"/>
+
+</LinearLayout>
